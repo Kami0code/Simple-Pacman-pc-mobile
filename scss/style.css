@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+@font-face {
+  font-family: "Emulogic-zrEw";
+  src: url(/fonts/Emulogic-zrEw.ttf) format("truetype");
+}
+.controll {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  margin-left: 50px;
+  width: 300px;
+  height: 150px;
+}
+
+.controll button {
+  width: 65px;
+  height: 50px;
+  background-color: linear-gradient(to right, #e0eafc, #cfdef3);
+  border: none;
+  border-radius: 30%;
+  margin: 10px;
+  padding: 0;
+  font-size: 16px;
+  color: #C2BB9C;
+  cursor: pointer;
+  font-family: "Emulogic-zrEw";
+  font-size: 8.5px;
+  transform: translate(140%, 20%);
+}
+.controll button:active {
+  border: 0.3px solid #d7dde8;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.78);
+  background: #808080;
+  color: gold;
+}
+
+.controll .left {
+  position: absolute;
+  top: 20%;
+  left: -15%;
+}
+
+.controll .right {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+.controll .up {
+  position: absolute;
+  top: -10%;
+  left: 5%;
+}
+
+.controll .down {
+  position: absolute;
+  top: 48%;
+  left: 5%;
+}
